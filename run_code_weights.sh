@@ -28,7 +28,7 @@ fi
 
 # ----------  Load Conda  ----------
 
-source ~/miniconda3/etc/profile.d/conda.sh
+source [insert_your_path]/conda.sh
 
 conda activate probshakerank
 
