@@ -1,0 +1,4 @@
+Magnitude: 4.2
+Time: 2016-09-03T01:34:12
+LatEvent: 42.77
+LonEvent: 13.13

@@ -1,0 +1,40 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.0657,
+                    44.8417,
+                    8.1
+                ]
+            },
+            "properties": {
+                "originId": 99999999,
+                "version": 1,
+                "time": "2012-05-29T07:00:02",
+                "eventId": "IT-2012-0011",
+                "mag": 6.0,
+                "magType": "Mw",
+                "type": "earthquake",
+                "place": "Italy",
+                "mag_percentiles": {
+                    "p16": 5.7,
+                    "p50": 6.0,
+                    "p84": 6.3
+                },
+                "cov_matrix": {
+                    "XX": 10.0,
+                    "XY": 0.0,
+                    "XZ": 0.0,
+                    "YY": 10.0,
+                    "YZ": 0.0,
+                    "ZZ": 10.0
+                },
+                "author": "auto(ESM)"
+            }
+        }
+    ]
+}
