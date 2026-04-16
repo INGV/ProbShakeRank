@@ -2,7 +2,7 @@
 set -e
 
 # ---------- User Input ----------
-IMT="SA"
+IMT="PGA"
 T="1_000" # FOR SA ONLY (will be ignored for other IMT)
 EV_ID="IT-2012-0011"
 FAULT_MULTIPLIER=1
@@ -28,7 +28,7 @@ fi
 
 # ----------  Load Conda  ----------
 
-source ~/miniconda3/etc/profile.d/conda.sh
+source[insert_your_path]/conda.sh
 
 
 # ---------- Step 1: Extract ESM data ----------
@@ -84,7 +84,7 @@ else
     echo  "-----------------------------"
     echo "Step 2: Running SeisEnsMan..."
     echo  "-----------------------------"
-    source /usr/local/bin/SeisEnsMan/bin/activate   
+    source [insert_your_path]/SeisEnsMan/bin/activate   
     cd src/SeisEnsManV2 || exit
 
     mainFolder=$(pwd)
